@@ -12,7 +12,7 @@ body{
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 	background: #111;
-	color: #707070;
+	color: #fff;
 }
 
 h1,
@@ -288,7 +288,7 @@ header .navbar.sticky-header{
     top: 0px;
     left: 0;
     width: 100%;
-    background: url(../images/header-bg.jpg) no-repeat top center;
+    background: url(../images/header-bg.png) no-repeat top center;
     background-size: cover;
     padding: 220px 0 120px;
 }
@@ -296,7 +296,7 @@ header .navbar.sticky-header{
 .banner-content h2{
 	font-size: 22px;
 	font-weight: 300;
-	color: #fff;
+	color: #fe0a0a;
 	line-height: 2.3em;
 	margin-bottom: 1.5em;
 	letter-spacing: 0.04em;
@@ -314,7 +314,7 @@ header .navbar.sticky-header{
 }
 
 .banner-content p{
-	color: #707070;
+	color: #fff;
 	font-size: 20px;
 	font-weight: 300;
 	margin-bottom: 1.5em;
@@ -369,7 +369,7 @@ header .navbar.sticky-header{
 }
 
 .section-title p{
-	color: #707070;
+	color: #fff;
 	
 }
 
@@ -396,7 +396,7 @@ header .navbar.sticky-header{
 }
 
 .about-content h3{
-	color: #fff;
+	color: #fe0a0a;
 	font-weight: 400;
 	font-size: 26px;
 	position: relative;
@@ -515,7 +515,7 @@ header .navbar.sticky-header{
 .service-single h3{
 	font-size: 20px;
 	font-weight: 400;
-	color: #fff;
+	color: #fe0a0a;
 	margin-bottom: 16px;
 }
 
@@ -683,7 +683,7 @@ header .navbar.sticky-header{
 .portfolio-nav ul li a{
 	display: block;
 	background: #222;
-	color: #707070;
+	color: #fff;
 	padding: 6px 20px;
 	border: 1px solid #333;
 	margin: 0 4px;
@@ -783,7 +783,7 @@ header .navbar.sticky-header{
 	background: #333;
 	border: 1px solid #444;
 	padding: 6px 20px;
-	color: #707070;
+	color: #fff;
 	transition: all 0.3s;
 }
 
@@ -794,7 +794,7 @@ header .navbar.sticky-header{
 }
 
 .mfp-close-btn-in .mfp-close{
-	color: #707070;
+	color: #fff;
 }
 
 .load-more-portfolio{
@@ -806,7 +806,7 @@ header .navbar.sticky-header{
 	display: inline-block;
 	font-size: 18px;
 	background: #222;
-	color: #707070;
+	color: #fff;
 	padding: 18px 40px;
 	border: 1px solid #333;
 	transition: all 0.3s;
@@ -965,7 +965,7 @@ header .navbar.sticky-header{
 .pricing-header p span{
 	font-size: 18px;
 	font-weight: 300;
-	color: #707070;
+	color: #fff;
 }
 
 .pricing-body{
@@ -1169,7 +1169,7 @@ header .navbar.sticky-header{
 	padding: 0 30px;
 	box-shadow: none;
 	outline: 0;
-	color: #707070;
+	color: #fff;
 }
 
 .newsletter-form .btn-subscribe{
@@ -1476,7 +1476,7 @@ header .navbar.sticky-header{
 	font-size: 22px;
 	background: #222;
 	line-height: 60px;
-	color: #707070;
+	color: #fff;
 	border-radius: 50%;
 	border: 1px solid #333;
 	margin: 0 6px;
@@ -1515,7 +1515,7 @@ header .navbar.sticky-header{
 }
 
 .footer-copyright p a{
-	color: #707070;
+	color: #fff;
 	text-decoration: underline;
 	transition: all 0.3s;
 }
@@ -1735,4 +1735,92 @@ header .navbar.sticky-header{
 	.testimonial-pagination{
 		margin-top: 0;
 	}
+}
+
+
+
+#experience {
+    background-color: #0b0b0b;
+    padding: 60px 0;
+}
+
+#experience h2 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    background: #ff5d56;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 50%;
+    clear: both;
+}
+
+.timeline-item:nth-child(odd) {
+    padding-left: 0;
+    padding-right: 50%;
+    text-align: right;
+}
+
+.timeline-item .timeline-icon {
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    background: #ff5d56;
+    border-radius: 50%;
+    top: 10px;
+}
+
+.timeline-item:nth-child(odd) .timeline-icon {
+    left: auto;
+    right: 50%;
+    margin-right: -10px;
+}
+
+.timeline-item .timeline-content {
+    padding: 20px;
+    background: #ff5d56;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+    text-align: left;
+}
+
+.timeline-item .timeline-content h3 {
+    color: #ff5d56;
+    margin-top: 0;
+}
+
+.timeline-item .timeline-content h4 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.timeline-item .timeline-content span {
+    display: block;
+    font-size: 0.9em;
+    color: #fff;
+    margin-bottom: 10px;
 }
